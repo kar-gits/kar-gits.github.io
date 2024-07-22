@@ -1,3 +1,174 @@
-<html>
-<h1>My Portfolio</h1>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik Yanagandula's Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            border-bottom: 2px solid #e8491d;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .skills li, .work-experience li, .education li, .projects li, .certifications li {
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Karthik Yanagandula</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="summary" class="section">
+            <h2>Summary</h2>
+            <p>Over 6 years of professional experience in software engineering, specializing as a full-stack developer in designing, building, testing, and deploying web-based applications.</p>
+            <p>Extensive experience developing integrations for platforms like NewStore OMS, Shopify, Magento, Salesforce, Adyen, Yotpo, DoorDash, and Klaviyo, enabling omnichannel retail solutions.</p>
+            <p>Proficient with version control tools like Bitbucket, Git, and GitHub, and skilled in using DevOps tools such as Docker and Kubernetes for cloud-based deployments.</p>
+            <p>Expertise in developing REST APIs using Python 3+, DynamoDB, S3, API Gateway, and AWS Lambda functions within a Microservices architecture and AWS SAM framework.</p>
+            <p>Adept at building web applications using HTML5, CSS3, Bootstrap 4, JavaScript, Angular, React, Node, Express, and MongoDB.</p>
+            <p>Strong background in machine learning, including developing and deploying predictive models, recommendation systems, and NLP applications.</p>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <ul class="education">
+                <li><strong>University of Missouri-Kansas City</strong> - Master of Science in Computer Science, GPA: 3.97/4.00 (January 2021 – May 2022)</li>
+                <li><strong>VIT University, India</strong> - Master of Science in Software Engineering (5-year integrated Program), CGPA: 8.64/10.00 (June 2012 – May 2017)</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li><strong>Languages:</strong> Python, JavaScript, HTML, CSS, XML, Bash</li>
+                <li><strong>Python Libraries:</strong> TensorFlow, Pandas, NumPy, NLP, scikit-learn, PySpark, boto3, pytesseract</li>
+                <li><strong>Frameworks:</strong> FastAPI, Flask, Angular, React</li>
+                <li><strong>Cloud Platforms:</strong> Google Cloud Platform, AWS Services (S3, Lambda, API Gateway, DynamoDB, etc.)</li>
+                <li><strong>Databases:</strong> SQL, MySQL, MongoDB</li>
+                <li><strong>Software:</strong> Visual Studio Code, PyCharm, Jupyter, IntelliJ, WebStorm, Anaconda, Postman, Microsoft Office, Docker, GitHub, BitBucket, CircleCI</li>
+                <li><strong>Platforms:</strong> Shopify, NewStore, Klaviyo, Yotpo, Adyen, Magento, Salesforce</li>
+            </ul>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <ul class="work-experience">
+                <li><strong>Change CX LLC, Plano, TX</strong> - Engineer-L2-Technology: Python AWS Engineer (April 2022 – Present)
+                    <ul>
+                        <li>Led the onboarding of Cos Bar to the NewStore Platform, implementing several integrations with platforms like Shopify and Magento to enhance business operations.</li>
+                        <li>Improved the client onboarding process by contributing to internal confluence documentation.</li>
+                        <li>Developed a solution to process historical orders and returns using AWS Lambda functions and CSV data inputs.</li>
+                        <li>Created an AI-powered customer support chatbot using NLP techniques, reducing human intervention by 40%.</li>
+                        <li>Implemented a recommendation engine using collaborative filtering, increasing sales by 15%.</li>
+                        <li>Conducted sentiment analysis on customer reviews with Python and NLP libraries to derive insights into customer satisfaction.</li>
+                        <li>Deployed machine learning models for predicting inventory needs based on historical sales data, improving stock management and reducing overstock by 20%.</li>
+                        <li>Collaborated with data scientists to create predictive analytics dashboards for sales and marketing teams using Python, Pandas, and Matplotlib.</li>
+                    </ul>
+                </li>
+                <li><strong>Infosys Limited, Hyderabad, India</strong> - Senior Systems Engineer: Python Developer (August 2017 – November 2020)
+                    <ul>
+                        <li>Developed an automation tool using Python and OOP to migrate projects from Maven to Gradle.</li>
+                        <li>Conducted training sessions on Python programming for over 40 attendees.</li>
+                        <li>Collaborated with multiple teams to develop a demo version of a product, incorporating feedback for production release, earning several awards and appreciation.</li>
+                        <li>Created a machine learning model for fraud detection in financial transactions using scikit-learn, significantly enhancing detection accuracy and speed.</li>
+                        <li>Implemented a text classification system for categorizing support tickets with NLP techniques, streamlining the ticket routing process and reducing resolution time by 30%.</li>
+                        <li>Worked on a proof-of-concept project using computer vision to automate quality inspection in manufacturing, employing OpenCV and TensorFlow.</li>
+                        <li>Participated in an internal AI hackathon, developing a predictive maintenance prototype for industrial equipment, reducing downtime and maintenance costs.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <ul class="projects">
+                <li><strong>E-commerce Web Application (EBS):</strong> Implemented an e-commerce web application using the MEAN stack, integrating MongoDB Cloud for the database, AWS S3 for image storage, Algolia for search functionality, and Stripe for payments.</li>
+                <li><strong>FastAPI Microservices for Real-Time Data Processing:</strong> Developed a set of microservices with FastAPI for real-time data processing in a financial analytics platform, utilizing asynchronous API endpoints for high performance, and deployed using Docker and Kubernetes.</li>
+                <li><strong>Machine Learning Model Deployment with FastAPI:</strong> Created and deployed a machine learning model to predict customer churn for an e-commerce platform using scikit-learn and FastAPI, implementing endpoint security and monitoring.</li>
+                <li><strong>Image Classification System with FastAPI and </li>
+              </li>
+            </ul>
+        </section>
+      <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <ul class="certifications">
+                <li><strong>E-commerce Web Application (EBS):</strong> Implemented an e-commerce web application using the MEAN stack, integrating MongoDB Cloud for the database, AWS S3 for image storage, Algolia for search functionality, and Stripe for payments.</li>
+                <li><strong>FastAPI Microservices for Real-Time Data Processing:</strong> Developed a set of microservices with FastAPI for real-time data processing in a financial analytics platform, utilizing asynchronous API endpoints for high performance, and deployed using Docker and Kubernetes.</li>
+                <li><strong>Machine Learning Model Deployment with FastAPI:</strong> Created and deployed a machine learning model to predict customer churn for an e-commerce platform using scikit-learn and FastAPI, implementing endpoint security and monitoring.</li>
+                <li><strong>Image Classification System with FastAPI and </li>
+              </li>
+            </ul>
+        </section>
